@@ -1,25 +1,26 @@
-@import url('./pretendard.css');
-@import url('./toss-face.css');
+@import url("./pretendard.css");
+@import url("./toss-face.css");
 
 :root {
-  --main-background: rgba(41, 47, 51, 1);
-  --main-color: #a9abad;
-  --playground-background: linear-gradient( 0deg, 
-    var(--main-background) 0%, 
-    var(--main-background) 80%, 
-    rgba(41, 47, 51, 0.85) 85%, 
-    rgba(41, 47, 51, 0) 100%
+  --main-background: black;
+  --main-color: #555555;
+  --playground-background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.47) 50%,
+    rgba(0, 0, 0, 0) 100%
   );
   --photoset-item-margin: 2px;
-  --pink-background: rgba(241, 232, 223, 1);
-  --pink-color: rgb(32, 66, 49);
+  --pink-background: white;
+  --pink-color: black;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
   font-size: 36px;
   color: var(--main-color);
   background: var(--main-background);
@@ -27,11 +28,19 @@ html, body {
   padding: 0;
   min-height: 100vh;
   /* Pretendard 추천 글꼴 순서 */
-  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -43,7 +52,9 @@ a {
   font-weight: 500;
 }
 
-section { position: relative; }
+section {
+  position: relative;
+}
 
 section .center {
   position: absolute;
@@ -53,7 +64,7 @@ section .center {
 }
 
 section .wrap {
-  width: 90%!important;
+  width: 90% !important;
   max-width: 1400px;
   min-width: 800px;
   margin: 0 auto;
@@ -64,7 +75,7 @@ section .wrap {
 section .clearfix:after {
   display: block;
   clear: both;
-  content: '';
+  content: "";
 }
 
 #front {
@@ -84,23 +95,23 @@ section .clearfix:after {
   right: 0;
   top: 0;
   bottom: 0;
-  background-image: url('./front.jpg');
+  background-image: url("./front.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: .8;
-  content: '';
+  opacity: 0.8;
+  content: "";
 }
 
 #front h1 {
   line-height: 4rem;
   font-size: 3rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
 #front h2 {
-  padding: .2rem 0;
+  padding: 0.2rem 0;
   line-height: 2rem;
   font-size: 1.5rem;
   text-align: center;
@@ -116,10 +127,10 @@ section .clearfix:after {
 #front .overlay {
   position: absolute;
   background: linear-gradient(
-    rgba(41,47,51,0) 0,
-    rgba(41,47,51,.5) 33%,
-    rgba(41,47,51,.77) 70%,
-    rgba(41,47,51,1) 100%
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.4) 47%,
+    rgba(0, 0, 0, 0) 100%
   );
   height: 40vh;
   bottom: 0;
@@ -133,7 +144,7 @@ section .clearfix:after {
   width: 3rem;
   height: 1.4rem;
   line-height: 1.4rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
 
   right: 5%;
@@ -151,7 +162,7 @@ section .clearfix:after {
   left: 50%;
   width: 1.2rem;
   height: 2rem;
-  margin-left: -.6rem;
+  margin-left: -0.6rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 2rem;
   box-sizing: border-box;
@@ -176,12 +187,12 @@ section .clearfix:after {
 
 #front .next span::before {
   position: absolute;
-  top: .4rem;
+  top: 0.4rem;
   left: 50%;
-  content: '';
-  width: .2rem;
-  height: .2rem;
-  margin-left: -.1rem;
+  content: "";
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-left: -0.1rem;
   background: white;
   border-radius: 100%;
   animation: scroll 2s infinite;
@@ -190,7 +201,7 @@ section .clearfix:after {
 
 #front a.go-to-wedding {
   display: block;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.4rem;
   width: 3rem;
   height: 1.4rem;
@@ -214,7 +225,7 @@ section .clearfix:after {
 
 #front a.go-to-welcome {
   display: block;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.4rem;
   width: 3rem;
   height: 1.4rem;
@@ -295,7 +306,7 @@ section .clearfix:after {
 
 #story-each p {
   line-height: 1.5rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   margin: 0;
 }
 
@@ -318,13 +329,14 @@ section .clearfix:after {
   position: absolute;
   margin: 0;
   padding: 50px 40px 30px;
-  transition: right .25s ease-in-out, left .25s ease-in-out, transform .25s ease-in-out;
+  transition: right 0.25s ease-in-out, left 0.25s ease-in-out,
+    transform 0.25s ease-in-out;
 }
 
-#playground .thumb.jaeyoung { 
+#playground .thumb.jaeyoung {
   left: 0;
 }
-#playground .thumb.soyoung { 
+#playground .thumb.soyoung {
   right: 0;
 }
 
@@ -342,7 +354,7 @@ section .clearfix:after {
 #black-to-pink {
   color: var(--main-color);
   text-align: center;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 5vh 0;
 }
 
@@ -362,18 +374,6 @@ section .clearfix:after {
   color: var(--pink-color);
 }
 
-
-#wedding-photo {
-  padding: 10vh 0 5vh;
-  font-size: .8rem;
-  text-align: center;
-}
-
-
-#wedding-photo .photoset {
-  margin-top: 5vh;
-}
-
 #welcome {
   padding: 5vh 0 5vh;
 }
@@ -384,7 +384,7 @@ section .clearfix:after {
 }
 
 #welcome p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   margin: 0;
   text-align: center;
@@ -392,6 +392,7 @@ section .clearfix:after {
 
 #location {
   padding: 5vh 100px;
+  text-align: center;
 }
 
 #location h4 {
@@ -406,7 +407,7 @@ section .clearfix:after {
 }
 
 #location p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.2rem;
   margin: 0;
   text-align: center;
@@ -415,6 +416,7 @@ section .clearfix:after {
 #location .tel {
   text-decoration: underline;
   color: var(--pink-color);
+  font-size: 0.8rem;
 }
 
 #location ul {
@@ -438,23 +440,21 @@ section .clearfix:after {
   padding: 0 2%;
 }
 
-
 #location ul li a {
   display: block;
   width: 100%;
   text-align: center;
   color: #ffffff;
-  background: #204231;
+  background: var(--main-background);
   border: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 0.8rem;
   line-height: 2rem;
 }
 
 #location ul li a:hover {
-  background: #0c7c44;
   border: 1px solid #4f4f4f;
+  text-decoration: underline;
 }
-
 
 #congratulatory {
   padding: 5vh 0;
@@ -466,42 +466,37 @@ section .clearfix:after {
 }
 
 #congratulatory table {
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 2vh auto 0;
 }
 
 #congratulatory table td {
   line-height: 1.5rem;
-  padding: .5rem 1vh;
+  padding: 0.5rem 1vh;
 }
-
 
 #congratulatory table td .copy-btn {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #204231;
+  background: var(--main-background);
   color: #ffffff;
   line-height: 1rem;
-  padding: .25rem .5rem;
-  margin: 0 0 0 .5rem;;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0 0 0.5rem;
   vertical-align: top;
-  font-size: .8rem;
+  font-size: 0.8rem;
   cursor: pointer;
 }
 
 #congratulatory table td .copy-btn:hover {
-  background: #0c7c44;
   border: 1px solid #4f4f4f;
+  text-decoration: underline;
 }
 
 #thanks-to {
-  padding: 5vh 0;
-  font-size: .8rem;
+  padding: 2vh 0;
+  font-size: 0.8rem;
   text-align: center;
-}
-
-#thanks-to .rose {
-  color: #FF0080;
 }
 
 #thanks-to a {
@@ -512,12 +507,27 @@ section .clearfix:after {
   display: inline-block;
   margin: 0 auto 5vh;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background: #204231;
+  background-color: #ff95ca;
+  /* background: var(--main-background); */
   color: #ffffff;
   line-height: 1rem;
-  padding: .25rem .5rem;
-  font-size: .8rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
   cursor: pointer;
+}
+
+#location .add-to-calendar {
+  display: inline-block;
+  margin: 1vh auto 3vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  line-height: 1rem;
+  /* padding: 0.15rem 1rem; */
+  cursor: pointer;
+  background-color: white;
+  border-color: white;
+  text-decoration: underline;
+  font-size: 0.8rem;
 }
 
 .photoset {
@@ -580,48 +590,52 @@ section .clearfix:after {
   left: 0;
 }
 
-body > a.go-to-top, 
-body > a.share 
-{
+body > a.go-to-top,
+body > a.share {
   z-index: 9999;
   position: fixed;
   display: block;
-  background: rgba(25, 25, 25, .6);
+  background: rgba(25, 25, 25, 0.6);
   color: #ffffff;
   width: 3rem;
   height: 3rem;
   border-radius: 1.5rem;
-  bottom: .7rem;
+  bottom: 0.7rem;
   right: -10rem;
-  font-size: .6rem;
+  font-size: 0.6rem;
   text-align: center;
-  transition: bottom .2s ease-in-out, right .2s ease-in-out;
+  transition: bottom 0.2s ease-in-out, right 0.2s ease-in-out;
 }
 body > a.share {
-  bottom: calc(3rem + .7rem + .7rem);
+  bottom: calc(3rem + 0.7rem + 0.7rem);
 }
 
-body > a.go-to-top img, 
+body > a.go-to-top img,
 body > a.share img {
   display: block;
   width: 1.4rem;
   height: 1.4rem;
-  margin: .5rem auto 0;
+  margin: 0.5rem auto 0;
 }
 
 body.after-story-each > a.go-to-top,
-body.after-story-each > a.share
-{
-  right: .7rem;
+body.after-story-each > a.share {
+  right: 0.7rem;
 }
 
 body.on-story-each > a.go-to-top {
-  right: .7rem;
+  right: 0.7rem;
   bottom: 160px;
 }
-body.on-story-each > a.share
-{
-  bottom: calc(3rem + .7rem + 160px);
-  right: .7rem;
+body.on-story-each > a.share {
+  bottom: calc(3rem + 0.7rem + 160px);
+  right: 0.7rem;
 }
 
+#content {
+  background-color: white;
+}
+
+.hide {
+  visibility: hidden !important;
+}
