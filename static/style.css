@@ -384,8 +384,7 @@ section .clearfix:after {
 }
 
 #welcome p {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  line-height: 2.0rem;
   margin: 0;
   text-align: center;
 }
@@ -407,10 +406,17 @@ section .clearfix:after {
 }
 
 #location p {
-  font-size: 0.8rem;
-  line-height: 1.2rem;
+  line-height: 2.2rem;
   margin: 0;
   text-align: center;
+}
+
+#location .sm {
+  font-size: 0.9rem;
+}
+
+#location .xs {
+  font-size: 0.7rem;
 }
 
 #location .tel {
@@ -518,7 +524,7 @@ section .clearfix:after {
 
 #location .add-to-calendar {
   display: inline-block;
-  margin: 1vh auto 3vh;
+  margin: 1vh auto 4vh;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: black;
   line-height: 1rem;
@@ -527,7 +533,7 @@ section .clearfix:after {
   background-color: white;
   border-color: white;
   text-decoration: underline;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 
 .photoset {
