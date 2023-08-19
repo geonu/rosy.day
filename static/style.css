@@ -416,18 +416,18 @@ section .clearfix:after {
 }
 
 #location p {
-  line-height: 2.2rem;
+  line-height: 1.5rem;
   margin: 0;
   text-align: center;
 }
 
 #location .sm {
   margin-top: 1rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 #location .xs {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 
 #location .tel {
