@@ -21,7 +21,7 @@ html {
 
 html,
 body {
-  font-size: 36px;
+  font-size: 1.2rem;
   color: var(--main-color);
   background: var(--main-background);
   margin: 0;
@@ -105,8 +105,8 @@ section .clearfix:after {
 }
 
 #front h1 {
-  line-height: 4rem;
-  font-size: 3rem;
+  line-height: 2.5rem;
+  font-size: 2.5rem;
   margin-bottom: 0.5rem;
   text-align: center;
 }
@@ -114,12 +114,12 @@ section .clearfix:after {
 #front h2 {
   /* padding: 0.2rem 0; */
   /* line-height: 2rem; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
 }
 
 #front p {
-  line-height: 1rem;
+  line-height: 0.7rem;
   font-size: 1rem;
   text-align: center;
   color: #ffffff;
@@ -397,10 +397,11 @@ section .clearfix:after {
   line-height: 2rem;
   margin: 0;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 #location {
-  padding: 10vh 100px;
+  padding: 10vh 1vh;
   text-align: center;
 }
 
@@ -416,24 +417,24 @@ section .clearfix:after {
 }
 
 #location p {
-  line-height: 1.5rem;
+  line-height: 2rem;
   margin: 0;
   text-align: center;
 }
 
 #location .sm {
   margin-top: 1rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 #location .xs {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 #location .tel {
   text-decoration: underline;
   color: var(--pink-color);
-  font-size: 0.6rem;
+  font-size: 0.9rem;
 }
 
 #location ul {
@@ -498,8 +499,8 @@ section .clearfix:after {
   border: 1px solid rgba(0, 0, 0, 1);
   background: #ffffff;
   color: black;
-  line-height: 1rem;
-  padding: 0.25rem 0.5rem;
+  line-height: 1.1rem;
+  padding: 0.1rem 0.4rem;
   vertical-align: top;
   font-size: 0.8rem;
   cursor: pointer;
@@ -658,5 +659,11 @@ body.on-story-each > a.share {
 }
 
 span.sm {
-  font-size: 0.5rem;
+  font-size: 0.8rem;
+}
+
+#invitation {
+  max-width: 720px;
+  margin: auto;
+  overflow-x: hidden;
 }
