@@ -34,6 +34,7 @@ body {
     sans-serif;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
+  width: 100%;
 }
 h1,
 h2,
@@ -111,8 +112,8 @@ section .clearfix:after {
 }
 
 #front h2 {
-  padding: 0.2rem 0;
-  line-height: 2rem;
+  /* padding: 0.2rem 0; */
+  /* line-height: 2rem; */
   font-size: 1.5rem;
   text-align: center;
 }
@@ -197,6 +198,15 @@ section .clearfix:after {
   border-radius: 100%;
   animation: scroll 2s infinite;
   box-sizing: border-box;
+}
+
+#front .bottom {
+  display: block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  font-size: 3rem;
 }
 
 #front a.go-to-wedding {
@@ -375,7 +385,7 @@ section .clearfix:after {
 }
 
 #welcome {
-  padding: 5vh 0 5vh;
+  padding: 10vh 0 5vh;
 }
 
 #welcome h4 {
@@ -384,13 +394,13 @@ section .clearfix:after {
 }
 
 #welcome p {
-  line-height: 2.0rem;
+  line-height: 2rem;
   margin: 0;
   text-align: center;
 }
 
 #location {
-  padding: 5vh 100px;
+  padding: 10vh 100px;
   text-align: center;
 }
 
@@ -412,17 +422,18 @@ section .clearfix:after {
 }
 
 #location .sm {
-  font-size: 0.9rem;
+  margin-top: 1rem;
+  font-size: 0.7rem;
 }
 
 #location .xs {
-  font-size: 0.7rem;
+  font-size: 0.4rem;
 }
 
 #location .tel {
   text-decoration: underline;
   color: var(--pink-color);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 #location ul {
@@ -450,9 +461,9 @@ section .clearfix:after {
   display: block;
   width: 100%;
   text-align: center;
-  color: #ffffff;
-  background: var(--main-background);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 1);
   font-size: 0.8rem;
   line-height: 2rem;
 }
@@ -463,7 +474,7 @@ section .clearfix:after {
 }
 
 #congratulatory {
-  padding: 5vh 0;
+  padding: 10vh 0;
 }
 
 #congratulatory h4 {
@@ -478,17 +489,17 @@ section .clearfix:after {
 
 #congratulatory table td {
   line-height: 1.5rem;
-  padding: 0.5rem 1vh;
+  padding: 0.5rem 0.5vh;
+  color: var(--main-color);
 }
 
 #congratulatory table td .copy-btn {
   display: inline-block;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background: var(--main-background);
-  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: #ffffff;
+  color: black;
   line-height: 1rem;
   padding: 0.25rem 0.5rem;
-  margin: 0 0 0 0.5rem;
   vertical-align: top;
   font-size: 0.8rem;
   cursor: pointer;
@@ -513,7 +524,7 @@ section .clearfix:after {
   display: inline-block;
   margin: 0 auto 5vh;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: #ff95ca;
+  background-color: #ffc94c;
   /* background: var(--main-background); */
   color: #ffffff;
   line-height: 1rem;
@@ -644,4 +655,8 @@ body.on-story-each > a.share {
 
 .hide {
   visibility: hidden !important;
+}
+
+span.sm {
+  font-size: 0.5rem;
 }

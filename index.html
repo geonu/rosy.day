@@ -46,8 +46,6 @@
     <div class="curtain"></div>
     <div class="wrap center">
       <h1>2023. 10. 07.</h1>
-      <h2>동현, 수빈</h2>
-      <p>결혼합니다.</p>
     </div>
 
     <div class="overlay"></div>
@@ -58,16 +56,11 @@
         아래로
       </a> -->
 
+    <div class="bottom">
+      <h2>동현, 수빈</h2>
+      <p>결혼합니다.</p>
+    </div>
 
-    <a class="go-to go-to-wedding" href="#wedding-photo" data-margin-top="120">
-      <img src="./static/wedding-couple-icon.svg" />
-      웨딩 사진
-    </a>
-
-    <a class="go-to go-to-welcome" href="#welcome">
-      <img src="./static/map-icon.svg" />
-      오시는 길
-    </a>
   </section>
 
   <div id="content">
@@ -90,26 +83,20 @@
             <a data-src="./photos/wedding/5.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/5.jpg" />
             </a>
-            <a data-src="./photos/wedding/6.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/6.jpg" />
-            </a>
-            <a data-src="./photos/wedding/7.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/7.jpg" />
-            </a>
-            <a data-src="./photos/wedding/8.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/8.jpg" />
-            </a>
             <a data-src="./photos/wedding/9.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/9.jpg" />
             </a>
             <a data-src="./photos/wedding/10.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/10.jpg" />
             </a>
-            <a data-src="./photos/wedding/11.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/11.jpg" />
+            <a data-src="./photos/wedding/8.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/8.jpg" />
             </a>
-            <a data-src="./photos/wedding/12.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/12.jpg" />
+            <a data-src="./photos/wedding/7.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/7.jpg" />
+            </a>
+            <a data-src="./photos/wedding/6.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/6.jpg" />
             </a>
             <a data-src="./photos/wedding/13.jpg" data-responsive="./photos/wedding/13.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/13.jpg" />
@@ -120,17 +107,23 @@
             <a data-src="./photos/wedding/15.jpg" data-responsive="./photos/wedding/15.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/15.jpg" />
             </a>
-            <a data-src="./photos/wedding/16.jpg" data-responsive="./photos/wedding/16.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/16.jpg" />
-            </a>
             <a data-src="./photos/wedding/17.jpg" data-responsive="./photos/wedding/17.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/17.jpg" />
             </a>
-            <a data-src="./photos/wedding/18.jpg" data-responsive="./photos/wedding/18.jpg" class="gallery-item">
-              <img class="img-responsive" src="./photos/wedding/18.jpg" />
-            </a>
             <a data-src="./photos/wedding/19.jpg" data-responsive="./photos/wedding/19.jpg" class="gallery-item">
               <img class="img-responsive" src="./photos/wedding/19.jpg" />
+            </a>
+            <a data-src="./photos/wedding/12.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/12.jpg" />
+            </a>
+            <a data-src="./photos/wedding/11.jpg" data-responsive="./photos/wedding/3.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/11.jpg" />
+            </a>
+            <a data-src="./photos/wedding/16.jpg" data-responsive="./photos/wedding/16.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/16.jpg" />
+            </a>
+            <a data-src="./photos/wedding/18.jpg" data-responsive="./photos/wedding/18.jpg" class="gallery-item">
+              <img class="img-responsive" src="./photos/wedding/18.jpg" />
             </a>
           </div>
         </div>
@@ -149,10 +142,10 @@
       <p>&nbsp;</p>
 
       <p>
-        <b>김용섭</b> · <b>강외숙</b> 의 막내 <b>동현</b>
+        <b>김용섭</b> · <b>강외숙</b> <span class="sm">의 막내</span> <b>동현</b>
       </p>
       <p>
-        <b>김진호</b> · <b>김혜옥</b> 의 막내 <b>수빈</b>
+        <b>김진호</b> · <b>김혜옥</b> 의 <span class="sm">막내</span> <b>수빈</b>
       </p>
     </section>
 
@@ -162,7 +155,7 @@
 
       <p><b>2023년 10월 7일 오후 5시</b></p>
       <p><b>영도 목장원, 오필로스가든 (야외예식)</b></p>
-      <button id="add-to-calendar" class="add-to-calendar">🗓️ 일정 등록</button>
+      <!-- <button id="add-to-calendar" class="add-to-calendar">🗓️ 일정 등록</button> -->
       <p class="sm">부산 영도구 절영로 355</p>
       <p class="xs">(부산 영도구 동삼동 628-1)</p>
       <p><a href="tel:051-404-5011" class="tel">📞 051-404-5011</a></p>
@@ -243,10 +236,10 @@
     jQuery("#animated-thumbnails-gallery")
       .justifiedGallery({
         captions: false,
-        lastRow: "hide",
+        lastRow: "center",
         rowHeight: 500,
         margins: 20,
-        maxRowsCount: 5
+        maxRowsCount: 7
       })
       .on("jg.complete", function () {
         window.lightGallery(
@@ -272,7 +265,6 @@
     const config = {
       name: "[결혼식] 김동현 * 김수빈",
       description: "부산 ",
-      location: "부산광역시 영도구 절영로 355",
       startDate: "2023-10-07",
       startTime: "17:00",
       endTime: "18:30",
