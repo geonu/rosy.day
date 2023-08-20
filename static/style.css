@@ -49,7 +49,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
   font-weight: 500;
 }
 
@@ -545,7 +545,7 @@ section .clearfix:after {
   background-color: white;
   border-color: white;
   text-decoration: underline;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .photoset {
@@ -666,4 +666,55 @@ span.sm {
   max-width: 720px;
   margin: auto;
   overflow-x: hidden;
+}
+
+#map {
+  width: 95%;
+  height: 300px;
+  margin: 20px auto 0;
+}
+
+.map-wrapper {
+  margin-bottom: 20px;
+}
+
+.map-wrapper .map-navi {
+  text-align: left;
+  padding: 6px 10px;
+  display: flex;
+  color: #000;
+  font-size: 0.8rem;
+  height: 1.3rem;
+}
+
+.map-wrapper .map-navi > div {
+  flex: 1.2;
+  margin: auto;
+  height: 1.1rem;
+  line-height: 1.1rem;
+  border-right: 1px solid rgba(97, 80, 67, 0.15);
+  text-align: center;
+  cursor: pointer;
+}
+
+.map-navi > div:last-child {
+  flex: 1;
+  border-right: 0;
+}
+
+.map-navi img {
+  position: relative;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+  border-radius: 16%;
+}
+
+.navi-wrapper {
+  border-color: black;
+  border: 1px solid;
+  width: 95%;
+  margin: auto;
 }
