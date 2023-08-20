@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Georgia Black'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Georgia ExtraBold'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Georgia Bold'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Georgia SemiBold'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-SemiBold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Georgia Medium'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Georgia Regular'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Georgia Light'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Georgia ExtraLight'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Georgia';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Georgia Thin'), url('./ttf/Georgia.ttf') format('ttf'), url('./woff/Georgia-Thin.woff') format('woff');
+}
