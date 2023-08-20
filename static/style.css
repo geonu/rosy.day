@@ -385,7 +385,7 @@ section .clearfix:after {
 }
 
 #welcome {
-  padding: 10vh 0 5vh;
+  padding: 10vh;
 }
 
 #welcome h4 {
