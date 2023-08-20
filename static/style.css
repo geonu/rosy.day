@@ -723,3 +723,7 @@ span.sm {
   width: 95%;
   margin: auto;
 }
+
+span.account {
+  font-size: 0.7rem;
+}
